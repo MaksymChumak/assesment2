@@ -229,4 +229,7 @@ displayDiv.addEventListener('click', function(ev) {
 	if (ev.target.className.match('display-element')) {
 		ev.target.remove();
 	}
+	if (ev.target.className.match('new-items')) {
+		ev.target.parentElement.remove();
+	}
 });
