@@ -1,0 +1,45 @@
+#controls {
+	position: absolute;
+}
+input {
+	width: 50px;
+}
+
+#number-button {
+	background-color: black;
+	color: white;
+}
+
+#random-button {
+	background-color: rgb(255,165,220);
+	color: rgb(199,21,133);
+}
+
+#plus-button {
+	background-color: grey;
+	color: white;
+}
+
+.display-element {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	position: relative;
+	margin: 7px;
+	margin-left: 0px;
+	top: 70px;
+}
+.new-items {
+  position:absolute;
+  left:0;
+  right:0;
+  margin:auto;
+}
+
+#vertical-line {
+	width: 2px;
+	height: 12px;
+	background-color: black;
+	display: inline-block;
+	
+}
